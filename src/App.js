@@ -8,7 +8,7 @@ import './App.css';
 import Modal from "./UI/Modal";
 
 function App() {
-  const [modalActive, setModalActive] = useState(true)
+  const [modalActive, setModalActive] = useState(false)
   return (
     <div className="App">
       <div  className="container">
